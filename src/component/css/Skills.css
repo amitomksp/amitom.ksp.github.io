@@ -1,0 +1,53 @@
+.SkillsContainer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+svg{
+    color: #931793;
+}
+.skillsheading{
+    font-size: 2rem;
+    color: #fdf8fd;
+}
+.skillsheading span{
+    color: #27AE60;
+}
+.skillsabout{
+    font-size: 1.2rem;
+    color:#d7c8d5;
+}
+
+ p{
+    color: white;
+}
+
+.allskill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 7px;
+    margin-top: 25px;
+}
+
+.skillicon{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    /* border: 2px solid red; */
+    background-color: rgb(21, 21, 21);
+    gap: 15px;
+    text-align: center;
+    /* height: 12vw; */
+}
+
+.realskill{
+   margin-top: 5px;
+   margin-left: -9px;
+}
+
+

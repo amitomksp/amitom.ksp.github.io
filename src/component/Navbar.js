@@ -18,8 +18,11 @@ function Navbar(){
         <Link to="/project">
         <li><a href="#projects">Projects</a></li>
         </Link>
+        <Link to="/about">
+        <li><a href="#about">contact me</a></li>
+        </Link>
         
-        <li><a href="#projects">Work Experience</a></li>
+        
         <button className="contact-btn" onClick={()=>{}}>
             Hire Me
         </button>

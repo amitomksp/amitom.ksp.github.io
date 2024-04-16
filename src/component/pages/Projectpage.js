@@ -8,8 +8,8 @@ import {Link} from "react-router-dom"
 const navigation = [
   { name: 'MENU', href: '/', current: true },
   { name: 'Skills', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact me', href: '#', current: false },
+  { name: 'Projects', href: '/project', current: false },
+  { name: 'Contact me', href: '/about', current: false },
 ]
 
 

@@ -9,6 +9,7 @@ import {
 
 import Homepage from './component/pages/Homepage';
 import Projectspage from './component/pages/Projectpage'
+import Aboutpage from './component/pages/Aboutpage';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   { 
     path: '/project',
     element: <Projectspage></Projectspage>,
+  },
+  { 
+    path: '/about',
+    element: <Aboutpage></Aboutpage>,
   },
 ]);
 

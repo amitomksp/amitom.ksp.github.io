@@ -10,7 +10,7 @@ import {
 import Homepage from './component/pages/Homepage';
 import Projectspage from './component/pages/Projectpage'
 import Aboutpage from './component/pages/Aboutpage';
-
+import Skills from './component/Skills';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,6 +24,11 @@ const router = createBrowserRouter([
     path: '/about',
     element: <Aboutpage></Aboutpage>,
   },
+  { 
+    path: '/skills',
+    element: <Skills></Skills>,
+  },
+
 ]);
 
 

@@ -6,7 +6,7 @@ import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from
 
 const navigation = [
     { name: 'MENU', href: '/', current: true },
-    { name: 'Skills', href: '#', current: false },
+    { name: 'Skills', href: '/skills', current: false },
     { name: 'Projects', href: '/project', current: false },
     { name: 'Contact me', href: '/about', current: false },
   ]

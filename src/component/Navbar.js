@@ -14,7 +14,7 @@ function Navbar(){
         <div className="right">
         <ul className="menu">
         <li><a href="#home">Home</a></li>
-        <Link to="/Skills">
+        <Link to="/skills">
         <li><a href="#skills">Skills</a></li>
         </Link>
         <Link to="/project">

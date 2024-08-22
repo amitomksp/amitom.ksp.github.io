@@ -5,7 +5,7 @@ import { Bars3Icon, BellIcon,XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 
 const navigation = [
-    { name: 'MENU', href: '/', current: true },
+    { name: 'HOME', href: '/', current: true },
     { name: 'Skills', href: '/skills', current: false },
     { name: 'Projects', href: '/project', current: false },
     { name: 'Contact me', href: '/about', current: false },

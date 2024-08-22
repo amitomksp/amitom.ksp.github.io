@@ -38,12 +38,8 @@ function Home() {
   const shoot = () => {
     const imageUrl = 'https://drive.google.com/file/d/1RYGmr-KTs9VmUCje25PzHe9eVESHhpwN/view?usp=sharing';
     
-    const a = document.createElement('a');
-    a.href = imageUrl;
-    a.download = 'image_name.jpg'; // You can set the downloaded image's filename here
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    // Open the image in a new tab for viewing
+    window.open(imageUrl, '_blank');
   }
   return (
     <div className="homecontainer background-image">

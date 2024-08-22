@@ -11,6 +11,7 @@ import Homepage from './component/pages/Homepage';
 import Projectspage from './component/pages/Projectpage'
 import Aboutpage from './component/pages/Aboutpage';
 import SkillsPage from './component/pages/skillspage';
+import TrSkills from './component/Skillstriphsti';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +29,12 @@ const router = createBrowserRouter([
     path: '/skills',
     element: <SkillsPage></SkillsPage>,
   },
+ 
+  { 
+    path: '/tr-skills',
+    element: <TrSkills></TrSkills>,
+  },
+ 
 
 ]);
 

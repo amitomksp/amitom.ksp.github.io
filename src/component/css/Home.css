@@ -84,8 +84,77 @@
   .btn-text {
     margin-right: 20px; /* Adjust margin between text and icon */
   }
-  
-  
-  
-  
-  
+
+
+  @media (min-width: 640px) and (max-width: 1000px) {
+    .homecontainer {
+        flex-direction: column; /* Stack items vertically for this range if needed */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .homeleft {
+        width: 80%; /* Adjust width on medium screens */
+        margin-right: 0;
+        margin-top: 0px; /* Adjust top margin */
+    }
+
+    .profile-circle {
+        width: 600px; /* Adjust profile circle size for medium screens */
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .homeright {
+        margin: 0px; /* Adjust margins for medium screens */
+        font-size: 1.25rem; /* Smaller font size for medium screens */
+        text-align: center; /* Center text */
+    }
+
+    .homeright .name {
+        font-size: 2rem !important; /* Smaller font size for name */
+        margin-left: 0; /* Adjust left margin */
+    }
+
+    .main-btn {
+        padding: 8px 16px; /* Adjust padding for medium screens */
+        font-size: 0.875rem; /* Smaller font size for button */
+    }
+}
+
+  @media (max-width: 640px) {
+    .homecontainer {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .homeleft {
+        width: 80%; /* Adjust width on mobile */
+        margin-right: 0;
+        margin-top: 20px; /* Adjust top margin on mobile */
+    }
+
+    .profile-circle {
+        width: 150px; /* Adjust profile circle size on mobile */
+        height: 150px;
+        margin-left: 0; /* Remove left margin on mobile */
+    }
+
+    .homeright {
+        margin: 20px; /* Adjust margins on mobile */
+        font-size: 1rem; /* Smaller font size on mobile */
+        padding: 10px;
+        text-align: center; /* Center text on mobile */
+    }
+
+    .homeright .name {
+        font-size: 1.5rem !important; /* Smaller font size for name on mobile */
+        margin-left: 0; /* Adjust left margin on mobile */
+    }
+
+    .main-btn {
+        padding: 8px 16px; /* Adjust padding on mobile */
+        font-size: 0.875rem; /* Smaller font size on mobile */
+    }
+}

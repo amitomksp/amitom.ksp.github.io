@@ -12,7 +12,6 @@ const Skills = () => {
         <div className="skillsabout">
         In addition to my core skills, I am proficient in a variety of technologies and tools commonly used in the industry. I have extensive experience working with languages such as JavaScript, react, and Java, enabling me to develop robust and efficient solutions for a wide range of projects. 
         </div>
-        <h1>Programming lamguage</h1>
         <div className="allskill">
           {skills.map((skill, index) => (
             <div className="skillicon" key={index}>

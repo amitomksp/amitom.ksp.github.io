@@ -1,6 +1,10 @@
 import chess from "../images/CHESS_HERO.jpg"
 import ecommerce from "../images/ecommerce.webp"
 import food from "../images/Food-delivery-11.jpg"
+import stream from "../images/stream.png"
+import github from "../images/github.jpg"
+import objectidentify from "../images/object.jpg"
+import webrtc from "../images/webrtc.jpeg"
 export const AllProjects = [
     {
         title: "E-Commerce ",
@@ -8,7 +12,7 @@ export const AllProjects = [
         description:
         "Welcome to the future of eCommerce. I have leveraged the power of the MERN (MongoDB, Express.js, React, Node.js) stack and Tailwind CSS to create a modern and user-friendly online shopping experience.",
         image: ecommerce,
-        link: "https://reactbootcamp.com",
+        link: "https://mern-ecommerce-alpha-tawny.vercel.app/",
       },
       {
         title: "Food Delivery",
@@ -16,15 +20,23 @@ export const AllProjects = [
         description:
           "Experience the joy of food delivery reimagined with this website. Order now and indulge in a culinary adventure unlike any other!",
         image: food,
-        link: "https://reedbarger.com",
+        link: "https://github.com/amitomksp/food-odering-clone-APP",
       },
       {
         title: "WEBRTC Video Calling App",
         subtitle: "React Application",
         description:
           "This web calling app utilizes the power of Socket.IO, a real-time communication library, seamlessly integrated with React. ",
-        image: chess,
+        image: webrtc,
         link: "https://jsbootcamp.com",
+      },
+      {
+        title: " Live Streamer ",
+        subtitle: "Backend Application",
+        description:
+          "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
+        image: stream,
+        link: "https://github.com/amitomksp/Streamyard",
       },
       {
         title: "Chess game",
@@ -32,23 +44,23 @@ export const AllProjects = [
         description:
           "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
         image: chess,
-        link: "https://jsbootcamp.com",
+        link: "https://github.com/amitomksp/chess_game",
       },
       {
-        title: "Chess game",
-        subtitle: "Frontend Application",
+        title: "Object identify",
+        subtitle: "ML Application",
         description:
           "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
-        image: chess,
-        link: "https://jsbootcamp.com",
+        image: objectidentify,
+        link: "https://github.com/amitomksp/object-identify",
       },
       {
-        title: "Chess game",
-        subtitle: "Frontend Application",
+        title: "For more visit my Github",
+        subtitle: "github",
         description:
           "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
-        image: chess,
-        link: "https://jsbootcamp.com",
+        image: github,
+        link: "https://github.com/amitomksp",
       },
 ]
 

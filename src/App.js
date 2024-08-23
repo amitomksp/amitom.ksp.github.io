@@ -12,6 +12,7 @@ import Projectspage from './component/pages/Projectpage'
 import Aboutpage from './component/pages/Aboutpage';
 import SkillsPage from './component/pages/skillspage';
 import TrSkills from './component/Skillstriphsti';
+import Projectpageold from './component/pages/Projectpageold';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
   },
   { 
     path: '/project',
-    element: <Projectspage></Projectspage>,
+    element: <Projectpageold></Projectpageold>,
   },
   { 
     path: '/about',

@@ -13,7 +13,6 @@ function Homepage() {
         <Navbartl></Navbartl>
          <Home></Home>
          <Skills></Skills>
-         <Projects></Projects>
          <ContactMeSection></ContactMeSection>
          </>
       

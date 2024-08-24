@@ -1,0 +1,78 @@
+.SkillsContainer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    margin: 100px auto; /* Center the container */
+    width: 80%; /* Default width */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .SkillsContainer {
+        width: 90%; /* Adjust width for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    .allskill {
+        grid-template-columns: 1fr; /* One column layout */
+        grid-gap: 10px;
+    }
+
+    .skillicon {
+        margin: 10px 0; /* Increase margin between skill items */
+        padding: 10px; /* Increase padding for better touch interaction */
+        justify-content: center; /* Center the content in smaller screens */
+    }
+
+    .realskill {
+        margin-left: 0; /* Adjust text margin for smaller screens */
+        text-align: center;
+    }
+}
+
+svg {
+    color: #931793;
+}
+
+.skillsheading {
+    font-size: 2rem;
+    color: #fdf8fd;
+}
+
+.skillsheading span {
+    color: #27AE60;
+}
+
+.skillsabout {
+    font-size: 1.2rem;
+    color: #d7c8d5;
+}
+
+p {
+    color: white;
+}
+
+.allskill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns by default */
+    grid-gap: 7px;
+    margin-top: 25px;
+}
+
+.skillicon {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(21, 21, 21);
+    gap: 15px;
+    text-align: center;
+}
+
+.realskill {
+    margin-top: 5px;
+    margin-left: -9px;
+}

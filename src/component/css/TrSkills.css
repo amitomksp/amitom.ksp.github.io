@@ -1,0 +1,102 @@
+/* TrSkills.css */
+
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 100px auto; /* Centers the section horizontally and adds top margin */
+  color: white;
+}
+
+.category-wrapper {
+  width: 180px;
+  font-size: small;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.category {
+  list-style: none;
+  padding: 0;
+}
+
+.category li {
+  margin-bottom: 0;
+}
+
+.category button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #d7c8d5;
+  cursor: pointer;
+  text-align: right;
+  transition: background-color 0.3s ease;
+}
+
+.category button:hover {
+  background-color: #444;
+}
+
+.category .active {
+  background-color: #931793;
+  color: #fff;
+  font-weight: bold;
+}
+
+.skills {
+  max-width: fit-content;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill p {
+  color: #d7c8d5;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .skills-section {
+    margin: 20px 20px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-section {
+    width: 100%;
+    flex-direction: row; /* Stack the category and skills vertically */
+  }
+
+  .category-wrapper, 
+  .skills {
+    width: 100%;
+    margin-bottom: 20px; /* Adds space between category and skills */
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr); /* One skill per row */
+  }
+
+  .skill {
+    justify-content: center;
+  }
+}
+
+

@@ -1,0 +1,106 @@
+/* Project.css */
+
+#projects {
+    text-align: center;
+    padding: 50px 0;
+    color: #931793;
+    margin-bottom: 200px;
+    margin-top: -100px;
+  }
+  .view-all{
+    margin-left: 690px;
+    padding: 5px;
+    font-size: 0.9rem;padding: 0.6rem,2rem;
+    background: linear-gradient(90deg,#000000 0%,#545252 100%);
+    border: 1px solid rgb(205, 196, 196);
+    color: rgb(205, 196, 196);
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
+
+.view-all :hover{
+    color:#372191 ;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+   
+}
+  
+  .projectContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .heading {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 3%;
+  }
+  .heading span {
+    color: #27AE60;
+  }
+  
+  .about-it {
+    margin: 20px 0;
+    color: rgb(232, 216, 196);
+    font-family: cursive;
+    font-size: 1.4rem;
+    margin-top: -30px;
+  }
+  .project-title{
+      color: #c8c5c3;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family:cursive;
+  }
+  
+  .myallproject {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  
+  .imagelink {
+    text-decoration: none;
+    color: inherit;
+    object-fit: cover;
+    border: 3px solid black;
+    margin: 20px;
+    margin-top: 0px;
+    width: 220px; 
+    background: linear-gradient(90deg,#000000 0%,#545252 100%);
+  }
+  
+  .projimage {
+    height: 200px; 
+    overflow: hidden;
+  }
+  
+  .projimage img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+  }
+  .section {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+  
+  
+  @media (max-width: 768px) {
+    #projects {
+      margin-bottom: 1200px;
+    }
+    .imagelink {
+      width: 100%; /* Make projects full width on smaller screens */
+    }
+  }
+  

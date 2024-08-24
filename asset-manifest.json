@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.740fc8e3.css",
+    "main.js": "/static/js/main.79fbe260.js",
+    "static/media/mycv.jpg": "/static/media/mycv.7a35f575c76a39cca3c4.jpg",
+    "static/media/CHESS_HERO.jpg": "/static/media/CHESS_HERO.e3627567a23eaa11f1a4.jpg",
+    "static/media/stream.png": "/static/media/stream.f4b168e169ac43207803.png",
+    "static/media/object.jpg": "/static/media/object.0cc2ff24240df4706a75.jpg",
+    "static/media/ecommerce.webp": "/static/media/ecommerce.717ef55096cec8819a1b.webp",
+    "static/media/Food-delivery-11.jpg": "/static/media/Food-delivery-11.f51087e04af3473a64e4.jpg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/github.jpg": "/static/media/github.c17730aef280f6f10d67.jpg",
+    "static/media/photo.jpg": "/static/media/photo.e641ed5577a523f780f6.jpg",
+    "static/media/webrtc.jpeg": "/static/media/webrtc.ab9dc9dfe7c47e7c5906.jpeg",
+    "index.html": "/index.html",
+    "main.740fc8e3.css.map": "/static/css/main.740fc8e3.css.map",
+    "main.79fbe260.js.map": "/static/js/main.79fbe260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740fc8e3.css",
+    "static/js/main.79fbe260.js"
+  ]
+}
